@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Signup Example</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../CarComapny/main page/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="../CarComapny/main page/fontawesome-free-6.4.0-web/js/all.js">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-side">
+            <form class="my-form">
+                <div class="login-welcome-row">
+                    <h1>Create your account</h1>
+                </div>
+                <div class="socials-row">
+                    <a href="#" title="Use Google">
+                        <i class="fa-brands fa-google"></i>
+                        Sign up with Google
+                    </a>
+                    <a href="#" title="Use Apple">
+                        <i class="fa-brands fa-square-facebook"></i>
+                        Sign up with Facebook  <!--The facebook can change by any account that you want to use-->
+                    </a>
+                </div>
+                <div class="divider">
+                    <span class="divider-line"></span>
+                    Or
+                    <span class="divider-line"></span>
+                </div>
+                <div class="text-field">
+                    <label for="email">Email:
+                        <input type="email" id="email" name="email" autocomplete="off" placeholder="Your Email"
+                            required>
+                        <i class="fa-solid fa-envelope"></i>
+                    </label>
+                </div>
+                <div class="text-field">
+                    <label for="password">Password:
+                        <input id="password" type="password" name="password" placeholder="Your Password" 
+                            title="Minimum 6 characters at least 1 Alphabet and 1 Number"
+                            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                            <i class="fa-solid fa-lock"></i>
+                    </label>
+                </div>
+                <div class="text-field">
+                    <label for="confirm-password">Repeat Password:
+                        <input id="confirm-password" type="password" name="password" placeholder="Repeat Password"
+                            title="Minimum 6 characters at east 1 Alphabet and 1 Number"
+                            pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" required>
+                            <i class="fa-solid fa-lock"></i>
+                    </label>
+                </div>
+                <button class="my-form__button" type="submit">
+                    Sign up
+                </button>
+                <div class="my-form__actions">
+                    <div class="my-form__row">
+                        <span>Did you forget your password?</span>
+                        <a href="#" title="Reset Password">
+                            Reset Password
+                        </a>
+                    </div>
+                    <div class="my-form__signup">
+                        <a href="#" title="Login">
+                            Login
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="info-side">
+            <div class="welcome-message">
+                <h2>Shitux group! 👋</h2>
+                <p>
+                    The palce for the best desiging of your web pages;
+                    <br>
+                    <br>
+                    build, stay in tuch! <br>
+                    <br>
+                    <i class="fa fa-phone"></i> +93 77 064 9895 <br>
+                    <i class="fa-brands fa-whatsapp"></i> +93 78 366 5422
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html
